@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./contact.css">
+    
+    <title>Contact Team|FOOD-AID</title>
+</head>
+<body > 
+    
+    <div class="full-width-image">
+        <img class="contactbg" src="./contact.png">
+        <h1 class="head">We would love to here from you!</h1>
+        <a href="#section"> <button  id="mail"  type="button" class="btn btn-danger">Send us</button></a>
+        
+    </div>
+    <center>
+    <div class="mobile-full-width-image">
+        <img class="mobile-contactbg" src="./contact.png">
+        <h1 class=" mobile-head">We would love to here from you!</h1>
+      <a href="#mobile-section"> <button  id="mobile-btn"  type="button" class="btn btn-danger">Send us</button></a>
+      
+        
+    </div>
+    </center>
+    <br>
+
+<div id="section" class="contact-form">
+    <form id="form-firebase">
+        <div  class="mb-3">
+          <div class="alert">Your message has been sent</div>
+          <label  for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="text" required="" class="form-control" id="email" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Name</label>
+            <input type="text" required="" class="form-control" id="name">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Share us</label>
+          <input type="text" required="" class="form-control" id="message">
+        </div>
+        
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+
+<script src="./app.js"></script>
+</body>
+</html>

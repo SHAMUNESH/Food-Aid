@@ -1,0 +1,34 @@
+body {
+	 background-color:  #aed6f1 ;
+	 margin-top: 50px;
+}
+@media (max-width: 800px) {
+	.title {
+		font-size: 25px !important;
+	}
+	.header {
+		width: 90% !important;
+	}
+}
+
+.title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+}
+.header {
+	background-color:  #ec7063 ;
+	width: 50%;
+	padding: 10px;
+}
+.greet {
+	color: white;
+	font-weight: 400px;
+}
+.btn-default {
+      background: #000;
+      color: #fff;
+   }
+  .btn-default:hover {
+      background:  #7f8c8d ;
+      color: #000;
+   }
